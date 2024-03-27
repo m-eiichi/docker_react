@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  react:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    volumes:
+      - vol_react:/usr/src/app/
+    working_dir: /usr/src/app/
+    ports:
+      - "5173:5173"
+      - "6006:6006"
+    tty: true
+
+volumes:
+  vol_react:
