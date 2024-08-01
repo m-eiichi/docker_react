@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  react:
+  node:
     build:
       context: .
       dockerfile: Dockerfile

@@ -1,8 +1,8 @@
 {
   "name": "react_dev_container",
   "dockerComposeFile": ["./docker-compose.yml"],
-  "service": "react",
-  "workspaceFolder": "/usr/src/app",
+  "service": "node",
+  "workspaceFolder": "/usr/src/app/",
   "customizations": {
     "vscode": {
       "extensions": [
