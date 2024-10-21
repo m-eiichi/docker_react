@@ -9,7 +9,8 @@
         "donjayamanne.githistory",
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "vunguyentuan.vscode-css-variables"
       ]
     }
   }
