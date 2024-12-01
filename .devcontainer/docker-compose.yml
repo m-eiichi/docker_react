@@ -1,17 +1,27 @@
 version: "3.8"
 services:
-  node:
+  react:
     build:
       context: .
       dockerfile: Dockerfile
 
     volumes:
       - vol_react:/usr/src/app/
+
+    networks:
+      - test_network
+
     working_dir: /usr/src/app/
+
     ports:
       - "5173:5173"
       - "6006:6006"
+
     tty: true
 
 volumes:
   vol_react:
+
+networks:
+  test_network:
+    external: true
